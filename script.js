@@ -14,3 +14,8 @@ function getComputerChoice() {
 
 getComputerChoice();
 console.log(compChoice);
+
+let a = number(prompt("First number?", 1));
+let b = number(prompt("Second number?", 2));
+
+alert(a + b);
